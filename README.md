@@ -13,7 +13,7 @@ In that case, write a bash or batch script and configure the path as your global
 ```
 git config --global alias.cmp "!f() { git add -A && git commit -m "$@" && git push; }; f"
 ```
-The above script will create an alias for "add", "commit", and "push" as a single command "cmp"
+The above script creates an alias for "add", "commit", and "push" as a single command "cmp"
 
 ## How to use it?
 ```
